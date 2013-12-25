@@ -3,8 +3,8 @@ Model的对象里面有previousAttributes的Object是用来记录原来的属性
 
 
 需要注意的一点是在model.save()后，服务端接收post过去的信息时，php是不能直接用$_POST获取json的，因为header application/json;
-所以我们需要
+所以我们需要 <br/>
 <div>
-header('Content-Type: application/json; charset=utf-8');
-$json = file_get_contents("php://input");
+header('Content-Type: application/json; charset=utf-8');  <br/>
+$json = file_get_contents("php://input"); <br/>
 </div>
