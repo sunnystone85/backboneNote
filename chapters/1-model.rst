@@ -1,0 +1,2 @@
+Model的对象里面有previousAttributes的Object是用来记录原来的属性的比如有name属
+性，当name被修改之后previousAttributes中会记录name原来的值，新的值在attributes中changed对象会记录那写属性做了什么样的变更。
